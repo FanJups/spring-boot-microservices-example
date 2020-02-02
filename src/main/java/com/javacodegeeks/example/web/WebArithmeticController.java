@@ -31,7 +31,7 @@ public class WebArithmeticController {
     public String doSubstract(@RequestParam(defaultValue="0") String minuend,
             @RequestParam(defaultValue="0") String subtrahend,
             Model model) {
-        String difference = substractionService.subtract(minuend, subtrahend);
+        String difference = substractionService.substract(minuend, subtrahend);
         logger.info("Difference: " + difference);
         model.addAttribute("json", difference);
         return "difference";

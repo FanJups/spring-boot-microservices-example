@@ -17,7 +17,7 @@ public class WebSubstractionService {
         this.serviceUrl = serviceUrl.startsWith("http") ? serviceUrl
                 : "http://" + serviceUrl;
     }
-    public String subtract(String minuend, String subtrahend) {
+    public String substract(String minuend, String subtrahend) {
         return restTemplate.getForObject(serviceUrl + "/substract?minuend={minuend}&subtrahend={subtrahend}", String.class, minuend, subtrahend);
     }
 }
