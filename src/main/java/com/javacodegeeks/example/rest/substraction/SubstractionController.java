@@ -9,7 +9,7 @@ public class SubstractionController {
     protected Logger logger = Logger.getLogger(SubstractionController.class
             .getName());
     @RequestMapping("/substract")
-    public String doSubtract(@RequestParam(defaultValue="0") String minuend,
+    public String doSubstract(@RequestParam(defaultValue="0") String minuend,
             @RequestParam(defaultValue="0") String subtrahend) {
         int m = Integer.valueOf(minuend);
         int s = Integer.valueOf(subtrahend);
