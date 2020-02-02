@@ -18,4 +18,10 @@ https://spring.io/guides/gs/service-registration-and-discovery/
 
 http://www.appsdeveloperblog.com/register-web-service-with-eureka-server/
 
+# Cannot execute request on any known server
+
+https://www.google.com/search?q=Cannot+execute+request+on+any+known+server&oq=Cannot+execute+request+on+any+known+server&aqs=chrome..69i57j0l7.3714j0j7&sourceid=chrome&ie=UTF-8
+
+https://stackoverflow.com/questions/46131196/com-netflix-discovery-shared-transport-transportexception-cannot-execute-reques
+
 
