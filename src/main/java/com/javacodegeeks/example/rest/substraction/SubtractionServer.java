@@ -17,7 +17,7 @@ public class SubtractionServer {
 
 	public static void main(String[] args) {
 		
-		System.setProperty("spring.config.name", "subtraction-server");
+		System.setProperty("spring.config.name", "substraction-server");
         SpringApplication.run(SubtractionServer.class, args);
 		
 
