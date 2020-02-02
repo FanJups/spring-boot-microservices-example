@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SubstractionController {
     protected Logger logger = Logger.getLogger(SubstractionController.class
             .getName());
-    @RequestMapping("/subtract")
+    @RequestMapping("/substract")
     public String doSubtract(@RequestParam(defaultValue="0") String minuend,
             @RequestParam(defaultValue="0") String subtrahend) {
         int m = Integer.valueOf(minuend);
